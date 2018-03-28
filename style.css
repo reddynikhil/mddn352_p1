@@ -1,0 +1,108 @@
+html{
+  font-size: 16px;
+}
+
+body{
+font-family: Arial Black;
+}
+
+hr{
+  color: black;
+  background-color: black;
+  height: 2px;
+}
+p{
+
+  flex-basis: 25%;
+
+}
+.title{
+  font-size: 10em;
+  color: black;
+  font-style: italic;
+  text-align:right;
+  margin: 5% 5% 0 0;
+}
+.subtitle{
+  font-size: 2em;
+  color: black;
+  text-align:right;
+margin: 0 5% 0 0;
+}
+.flexone{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5% 0 5% 0;
+}
+
+.fullpg{
+  height:100vh;
+}
+
+.imageone{
+  margin:0 !important;
+  padding: 0 0 10% 0;
+  height: 50%;
+  padding-right: 10%;
+
+}
+.pagehead{
+  font-size: 3em;
+  margin:5% 0 5% 5%;
+}
+
+.overviewfull{
+  margin: 5%;
+}
+.overview{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.ovp{
+  margin: 5% 10% 5% 0;
+}
+.overimg{
+  width:25%;
+  height: 25%;
+  }
+
+
+/* div {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 5% 0 5% 0;
+} */
+
+@media(max-width: 1200px) {
+   .overview{
+    flex-wrap: wrap;
+    margin: 15% 0 5% 0;
+  }
+.title{
+  font-size: 4em;
+}
+.subtitle{
+  font-size: 1em;
+
+}
+.imageone{
+  margin: 5% 0 0 0;
+  height:25%;
+}
+
+.overimg{
+  width: 300px;;
+}
+.ovp{
+  width:100%;
+  margin: 5% 2% 5% 2%;
+}
+p{
+  flex-basis: 100%;
+}
+
+}
